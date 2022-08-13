@@ -58,7 +58,7 @@ app.post("/register", async (req, res) => {
   } catch (error) {
     console.log(error);
   }
-});
+}); 
 
 app.post("/login", async (req, res) => {
   try {
